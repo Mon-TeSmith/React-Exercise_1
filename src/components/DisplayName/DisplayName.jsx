@@ -1,13 +1,11 @@
-// Exercise Worksheet 1
-
-import React from 'react';
+import React from "react";
 
 function DisplayName(props) {
-    return(
+    return (
         <h1>
             {props.firstName} {props.lastName}
-            </h1>
-    );    
+        </h1>
+    );
 }
 
 export default DisplayName; 
